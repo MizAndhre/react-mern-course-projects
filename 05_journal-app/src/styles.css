@@ -1,0 +1,16 @@
+.box-shadow {
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.elipsis {
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* Number of lines */
+	-webkit-box-orient: vertical;
+	/* white-space: nowrap; */
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	/* whitespace: nowrap;
+	 	textOverflow: ellipsis,
+	overflow: hidden, */
+}
